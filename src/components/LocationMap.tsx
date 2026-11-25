@@ -3,8 +3,8 @@ import { motion, AnimatePresence } from 'motion/react';
 import { MapPin, Navigation, Compass, ArrowUpRight, Calendar, Clock } from 'lucide-react';
 import { WEDDING_DETAILS } from '../data';
 
-import churchVenueImg from '../assets/images/claris_allan_botanical.svg';
-import receptionVenueImg from '../assets/images/claris_allan_botanical.svg';
+import churchVenueImg from '../assets/images/Tropical Villa by the Turquoise Pool.jpg';
+import receptionVenueImg from '../assets/images/Tropical Villa by the Turquoise Pool.jpg';
 
 export default function LocationMap() {
   const [activeVenue, setActiveVenue] = useState<'ceremony' | 'reception'>('ceremony');
