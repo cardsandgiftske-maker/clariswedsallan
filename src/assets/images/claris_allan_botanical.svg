@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
-<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#f8f3e8"/><stop offset=".55" stop-color="#f5e8df"/><stop offset="1" stop-color="#dce5d5"/></linearGradient><radialGradient id="petal"><stop stop-color="#fff4ec"/><stop offset="1" stop-color="#e9aebd"/></radialGradient></defs>
-<rect width="1200" height="800" fill="url(#bg)"/>
-<g fill="none" stroke="#71866a" stroke-width="5" opacity=".65"><path d="M0 800 Q220 550 320 250 Q380 80 520 0"/><path d="M1200 800 Q950 580 900 300 Q870 120 760 0"/></g>
-<g fill="#9caf91" opacity=".75"><ellipse cx="170" cy="560" rx="38" ry="105" transform="rotate(-48 170 560)"/><ellipse cx="300" cy="370" rx="34" ry="92" transform="rotate(35 300 370)"/><ellipse cx="1000" cy="500" rx="38" ry="110" transform="rotate(48 1000 500)"/><ellipse cx="900" cy="230" rx="34" ry="92" transform="rotate(-35 900 230)"/></g>
-<g fill="url(#petal)" stroke="#d88fa4" stroke-width="2" opacity=".9"><g transform="translate(900 390)"><ellipse cy="-105" rx="52" ry="125"/><ellipse cy="-105" rx="52" ry="125" transform="rotate(45)"/><ellipse cy="-105" rx="52" ry="125" transform="rotate(90)"/><ellipse cy="-105" rx="52" ry="125" transform="rotate(135)"/><circle r="42" fill="#e8cf75" stroke="#c49a58"/></g><g transform="translate(230 160) scale(.55)"><ellipse cy="-105" rx="52" ry="125"/><ellipse cy="-105" rx="52" ry="125" transform="rotate(45)"/><ellipse cy="-105" rx="52" ry="125" transform="rotate(90)"/><ellipse cy="-105" rx="52" ry="125" transform="rotate(135)"/><circle r="42" fill="#e8cf75"/></g></g>
-<g fill="#65785c" opacity=".7"><circle cx="900" cy="390" r="8"/><circle cx="230" cy="160" r="6"/></g>
-</svg>
