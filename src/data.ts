@@ -55,7 +55,7 @@ export const WEDDING_DETAILS = {
   },
   dressCode: {
     formalTheme: 'A Touch of Blush Pink',
-    ladies: 'Elegant formal dresses in butter yellow, beige, sage green or blush pink accents.',
+    ladies: 'Elegant formal dresses in blush pink accents.',
     gentlemen: 'Smart formal suits or elegant traditional wear in complementary neutral and nature-inspired tones.',
     guideline: 'Butter yellow, beige and sage green, with a touch of blush pink.',
     kidsNote: 'We look forward to celebrating this special day with you.',
