@@ -70,7 +70,7 @@ export const WEDDING_DETAILS = {
 export const PROGRAM_ITEMS: ProgramItem[] = [
   { time: '9:00 AM', duration: '30 mins', title: 'Groom’s Entrance & Bridal Procession', description: 'Groom’s entrance, bridal party procession and bride’s entrance at Redeemed Gospel Church, Tiwi.', isChurch: true },
   { time: '9:30 AM', duration: '1 hr 30 mins', title: 'Wedding Service', description: 'The wedding service and exchange of vows.', isChurch: true },
-  { time: '11:00 AM', duration: '1 hr 45 mins', title: 'Recessional & Family Photos', description: 'Recessional and family photographs, followed by the transition to the reception.', isChurch: true },
+  { time: '11:30 AM', duration: '1 hr 15 mins', title: 'Recessional & Family Photos', description: 'Recessional and family photographs, followed by the transition to the reception.', isChurch: true },
   { time: '12:45–1:30 PM', duration: '45 mins', title: 'Convoy & Arrival at Sunset Villas', description: 'Convoy and guest arrival at Sunset Villas, Diani.', isChurch: false },
   { time: '1:30 PM', duration: '45 mins', title: 'Guests’ Arrival & Lunch', description: 'Guests arrive at the reception and enjoy lunch.', isChurch: false },
   { time: '2:15 PM', duration: '30 mins', title: 'Grand Entrance & Dancing', description: 'Grand entrance of the bridal party, followed by dancing.', isChurch: false },
