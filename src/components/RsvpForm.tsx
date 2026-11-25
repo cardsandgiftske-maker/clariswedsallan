@@ -5,8 +5,6 @@ import { QRCodeSVG } from 'qrcode.react';
 import { RsvpGuest } from '../types';
 import { saveRsvp, isFirebaseConfigured } from '../lib/firebase';
 
-const LOCAL_USER_RSVP_KEY = 'claris_allan_user_rsvp';
-
 export default function RsvpForm() {
   const [fullName, setFullName] = useState('');
   const [phoneNumber, setPhoneNumber] = useState('');
@@ -20,19 +18,6 @@ export default function RsvpForm() {
 
   const [showFloatingBtn, setShowFloatingBtn] = useState(true);
 
-  useEffect(() => {
-    try {
-      const saved = localStorage.getItem(LOCAL_USER_RSVP_KEY);
-      if (saved) {
-        const parsed = JSON.parse(saved);
-        if (parsed && parsed.fullName) {
-          setSubmittedGuest(parsed);
-        }
-      }
-    } catch {
-      // ignore
-    }
-  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -78,12 +63,6 @@ export default function RsvpForm() {
       };
 
       const savedGuest = await saveRsvp(newGuest);
-
-      try {
-        localStorage.setItem(LOCAL_USER_RSVP_KEY, JSON.stringify(savedGuest));
-      } catch {
-        // ignore
-      }
 
       setSubmittedGuest(savedGuest);
       setLoading(false);
