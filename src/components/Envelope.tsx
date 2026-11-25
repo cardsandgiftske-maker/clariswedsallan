@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Sparkles, Heart } from 'lucide-react';
-import rusticHallImage from '../assets/images/claris_allan_botanical.svg';
+import rusticHallImage from '../assets/images/Tropical Villa by the Turquoise Pool.jpg';
 import couplePortrait from '../assets/images/claris_allan_photo_1.jpeg';
 
 interface EnvelopeProps {
