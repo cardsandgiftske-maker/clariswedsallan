@@ -32,7 +32,7 @@ export default function DressCode() {
           </div>
 
           <p className="text-[#574C3F] text-base md:text-lg max-w-2xl mx-auto italic font-serif leading-relaxed">
-            We kindly invite our cherished guests to celebrate with us in formal elegance, complemented by butter yellow, beige, sage green and a touch of blush pink.
+            We kindly invite our cherished guests to celebrate with us in formal elegance, complemented by of blush pink.
           </p>
         </div>
 
