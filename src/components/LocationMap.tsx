@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { MapPin, Navigation, Compass, ArrowUpRight, Calendar, Clock } from 'lucide-react';
 import { WEDDING_DETAILS } from '../data';
 
-import churchVenueImg from '../assets/images/Tropical Villa by the Turquoise Pool.jpg';
+import churchVenueImg from '../assets/images/Restored Tropical Mansion with Grand Staircase.jpg';
 import receptionVenueImg from '../assets/images/Tropical Villa by the Turquoise Pool.jpg';
 
 export default function LocationMap() {
